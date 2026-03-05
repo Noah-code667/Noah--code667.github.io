@@ -197,11 +197,19 @@ h2 {
     left: -20px;
 
 }
-
 .scroll-btn.right {
 
     right: -20px;
+}
 
+.btn { display: inline-block; 
+    margin-top: 15px; 
+    padding: 8px 15px; 
+    background: var(--primary); 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-size: 0.9rem; 
 }
 
 /* FOOTER */
