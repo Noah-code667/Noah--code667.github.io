@@ -1,152 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>Portfolio - Noah Debailleux</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Portfolio - Noah Debailleux</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
-<script src="js/script.js" defer></script>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
 </head>
-
 <body>
 
 <header>
-<h1>Noah Debailleux</h1>
-<p>Développeur / Étudiant</p>
-
-<nav>
-<a href="#about">À propos</a>
-<a href="#projects">Projets</a>
-</nav>
-
+    <h1>Noah Debailleux</h1>
+    <p>Développeur / Étudiant</p>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+    </nav>
 </header>
 
-
 <section id="about" class="about">
+    <h2>À propos</h2>
 
-<h2>À propos</h2>
+    <div class="about-container">
 
-<div class="about-container">
+        <div class="about-text">
+            <p>
+                Je suis un étudiant passionné par l'informatique et les sciences. J'ai conçus et développé mon propre portfolio 
+                en utilisant HTML et CSS afin de mettre en valeur mes compétences et mes projets réalisés et à venir.
+                J'aime créer des projets qui combinent technologie et réflexion pour m'offrir 
+                une vraie expérience pendant mon temps libre.
 
-<div class="about-text">
+                <br><br>
 
-<p>
-Je suis un étudiant passionné par l'informatique et les sciences. J'ai conçus et développé mon propre portfolio 
-en utilisant HTML et CSS afin de mettre en valeur mes compétences et mes projets réalisés et à venir.
-J'aime créer des projets qui combinent technologie et réflexion pour m'offrir 
-une vraie expérience pendant mon temps libre.
+                Je suis autonome et persévérant. J'aime les projets car ils demandent de chercher 
+                des solutions par soi-même et d’essayer différentes méthodes. 
+                Ce portfolio en est la preuve.
 
-<br><br>
+                <br><br>
+                Mon objectif est de continuer à apprendre et à développer mes compétences en informatique et en ingénérie,
+                tout en partageant mes projets et mes expériences à travers ce portfolio.
 
-Je suis autonome et persévérant. J'aime les projets car ils demandent de chercher 
-des solutions par soi-même et d’essayer différentes méthodes. 
-Ce portfolio en est la preuve.
+                <br><br>
+                N'hésitez pas à aller visiter mes projets pour en savoir plus!
 
-<br><br>
+                <br><br><br>Merci de votre visite !</strong>
+            </p>
+        </div>
 
-Mon objectif est de continuer à apprendre et à développer mes compétences en informatique et en ingénérie,
-tout en partageant mes projets et mes expériences à travers ce portfolio.
+        <div class="about-cv">
+            <p><strong> Mon CV complet :</strong></p>
+            <a href="images/cv_noah_debailleux.pdf"class="btn-cv">
+                Afficher mon CV sur votre navigateur
+            </a>
+        </div>
 
-<br><br>
-
-N'hésitez pas à aller visiter mes projets pour en savoir plus!
-
-<br><br><br>
-
-Merci de votre visite !
-
-</p>
-
-</div>
-
-
-<div class="about-cv">
-
-<p><strong>Mon CV complet :</strong></p>
-
-<a href="images/cv_noah_debailleux.pdf" class="btn-cv">
-Afficher mon CV sur votre navigateur
-</a>
-
-</div>
-
-</div>
-
+    </div>
 </section>
-
 
 <section id="projects">
+    <h2>Mes Projets</h2>
 
-<h2>Mes Projets</h2>
-
-<div class="projects-container">
-
-<button class="scroll-btn left" id="scrollLeft">&#10094;</button>
-
-<div class="projects" id="projectsScroll">
-
-<div class="project-card">
-
-<img src="images/photo_2.png" alt="Projet 1">
-
-<div class="project-content">
-
-<h3>Jeu - Trophée NSI</h3>
-
-<p>Jeu développé en équipe pour participer au concours Trophée NSI.</p>
-
-<a href="Projets/Projet_Trophée_NSI.html" class="btn">En savoir plus</a>
-
-</div>
-
-</div>
-
-
-<div class="project-card">
-
-<img src="images/photo_1.jpg" alt="Projet 2">
-
-<div class="project-content">
-
-<h3>Robot - Olympiade SI</h3>
-
-<p>Robot conçu et programmé pour l'Olympiade des Sciences de l'Ingénieur.</p>
-
-<a href="Projets/Projet_Olympiade_SI.html" class="btn">En savoir plus</a>
-
-</div>
-
-</div>
-
-
-<div class="project-card">
-
-<img src="photo.jpg" alt="Projet 3">
-
-<div class="project-content">
-
-<h3>Titre du Projet 3</h3>
-
-<p>Description du projet 3.</p>
-
-<a href="#" class="btn">En savoir plus</a>
-
-</div>
-
-</div>
-
-</div>
-
-<button class="scroll-btn right" id="scrollRight">&#10095;</button>
-
-</div>
-
-</section>
-
-
+    <div class="projects">
+        <!-- card Projet 1 -->
+        <div class="project-card">
+            <img src="images/photo_2.png" alt="Projet 1">
+            <div class="project-content">
+                <h3>Jeu - Trophée NSI</h3>
+                <p>Jeu développé en équipe pour participer au concours Trophée NSI.</p>
+                <a href="Projets/Projet_Trophée_NSI.html" class="btn">En savoir plus</a>
+            </div>
+        </div>
+        <!-- card Projet 2 -->
+        <div class="project-card">
+            <img src="images/photo_1.jpg" alt="Projet 2">
+            <div class="project-content">
+                <h3>Robot - Olympiade SI</h3>
+                <p>Robot conçu et programmé pour l'Olympiade des Sciences de l'Ingénieur.</p>
+                <a href="Projets/Projet_Olympiade_SI.html" class="btn">En savoir plus</a>
+            </div>
+        </div>
+        <!-- card Projet 3 -->
+        <div class="project-card">
+            <img src="photo.jpg" alt="Projet 3">
+            <div class="project-content">
+                <h3>Titre du Projet 3</h3>
+                <p>Description du projet 3.</p>
+                <a href="#" class="btn">En savoir plus</a>
+            </div>
+        </div>
+    </div>
+   
 <footer>
-© 2026 - Noah Debailleux | Portfolio
+    © 2026 - Noah Debailleux | Portfolio
 </footer>
+
 </body>
 </html>
