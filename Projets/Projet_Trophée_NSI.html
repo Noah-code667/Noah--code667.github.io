@@ -31,19 +31,20 @@
     <div class="grid">
         <div class="text">
             <p>
-            Ce projet a été réalisé dans le cadre du Trophée NSI, 
-            un concours de programmation pour les élèves de Terminale.
+            Pour ce qui est de la naissance de l'idée, en apprenant le sujet du concours qui serait la biodiversité, on a tout de suite 
+            voulu faire un jeu.  
+            Au début, on pensait à un jeu de gestion de construction de ville, mais en y réfléchissant, on s'est dit :  
+            « Et si on faisait un jeu sarcastique sur le réchauffement climatique ? »
+
+            Notre professeur a immédiatement accroché et on s'est lancé dans le projet.
+
+            Problématique initiale :
+
+        Notre problématique initiale, et qui est restée la même tout au long du projet, est la suivante :  
+        « Comment faire en sorte de faire vivre une expérience vidéoludique à un jeu de façon interactive sans que cela devienne 
+        redondant dans la forme ? »
             </p>
 
-            <p>
-            L'objectif est de développer une simulation de pollution de la Terre sous forme de mini pixel
-            permettant de comprendre les enjeux environnementaux liés à la pollution et de sensibiliser 
-            les utilisateurs à l'importance de la préservation de notre planète.
-            </p>
-
-            <p>
-            Ce site présente le projet, ainsi que les différentes étapes de sa réalisation.
-            </p>
         </div>
 
         <div class="image">
@@ -54,31 +55,52 @@
 
 <section id="projet" class="section gray">
     <h2>Le Projet</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>⚙️ Fonctionnement</h3>
-            <p>
-            description 1
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>💻 Programmation</h3>
-            <p>
-            Description 2
-            </p>
-        </div>
-
         <div class="card">
             <h3>🎯 Objectif</h3>
             <p>
-            Description 3
+            Objectifs :
+                Dès le début du projet, nos objectifs étaient clairs : nous voulions faire un jeu où le but serait de détruire la planète et 
+                qu'à la fin, il y ait un message moral pour empêcher que cela se passe dans la vraie vie.
+
+            Nos objectifs étaient :
+
+                - Faire en sorte que le joueur s'amuse  
+                - Faire en sorte de faire passer un message clair  
+                - Être assez beau visuellement avec un style pixel art  
+                - Avoir un système de statistiques avec des jauges et des pouvoirs  
+                - Avoir une dégradation continue des jauges
+                    </p>
+                </div>
+        <div class="cards">
+
+        <div class="card">
+            <h3>Fonctionnement</h3>
+            <p>
+            Ce jeu a été développé en Python à l’aide de la bibliothèque Pygame, qui permet de créer
+            des applications graphiques interactives. Le projet repose sur une simulation où le joueur
+            doit gérer l’évolution de la planète en prenant différentes décisions ayant un impact direct
+            sur l’environnement.
+
+            L’interface du jeu utilise des sprites en pixel art afin de donner un style visuel simple,
+            lisible et cohérent avec l’esprit d’une simulation. Chaque élément du jeu, comme la planète,
+            les bâtiments ou les effets visuels, est représenté par des images en pixels.
+
+            Le fonctionnement du jeu repose sur un système de boutons permettant au joueur d’activer
+            différents pouvoirs ou actions. Chaque action influence plusieurs jauges représentant l’état
+            global de la planète. Parmi ces indicateurs, on retrouve la biodiversité, le niveau de pollution,
+            la stabilité de l’environnement, le rendement économique ainsi que le niveau de destruction.
+
+            Le joueur doit trouver un équilibre entre développement et préservation de la planète.
+            Certaines actions peuvent améliorer l’économie mais augmenter la pollution, tandis que
+            d’autres permettent de restaurer la biodiversité au prix d’un ralentissement du rendement.
+
+            Le jeu a été conçu pour être responsive, avec une interface capable de s’adapter à
+            différentes tailles de fenêtre afin de rester utilisable sur plusieurs types d’écrans.
+            L’organisation du code repose sur une séparation claire entre la gestion des événements,
+            l’affichage graphique et la logique de simulation, ce qui facilite l’ajout de nouvelles
+            fonctionnalités.
             </p>
         </div>
-
-    </div>
 </section>
 
 <section id="images" class="section">
